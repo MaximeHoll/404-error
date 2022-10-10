@@ -6,15 +6,29 @@ img {
 }
 
 div {
+    display: flex;
     width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 
+a {
+    text-decoration: none;
+    border: solid black 2px;
+    color: black;
+    padding: 12%;
+    border-radius: 20%;
+    font-size: larger;
+    font-weight: bold;
+}
 
